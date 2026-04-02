@@ -4,10 +4,10 @@ A full-stack authentication system built using the MERN stack with secure login 
 
 ## 🚀 Features
 - User registration and login
-- Password hashing (bcrypt)
+- Password hashing with bcrypt
 - JWT authentication
 - Protected API routes
-- MongoDB integration
+- MongoDB database integration
 
 ## 🛠 Tech Stack
 - MongoDB
@@ -15,12 +15,24 @@ A full-stack authentication system built using the MERN stack with secure login 
 - React.js
 - Node.js
 
-## 📌 API Endpoints
-- POST /api/auth/register
-- POST /api/auth/login
-- GET /api/auth/protected
+## 📌 How It Works
+- Users register and login
+- JWT token is generated
+- Token is used to access protected routes
 
-## 🎯 Learning Outcome
-- Built full-stack app
-- Implemented authentication
-- Connected frontend with backend
+## ⚙️ Setup Instructions
+
+### Backend
+cd mern-auth-system  
+npm install  
+npx nodemon server.js  
+
+### Frontend
+cd taskflow-react-app  
+npm install  
+npm start  
+
+## 🎯 What I Learned
+- Full-stack development
+- API integration
+- Authentication systems
